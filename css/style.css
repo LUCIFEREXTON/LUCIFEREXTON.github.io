@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {}
+
+div {
+    position: relative;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.gradient {
+    /* content: ''; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom right, rgba(0, 0, 255, 0.3), rgba(238, 130, 238, 0.3));
+    background-size: cover;
+    display: inline-block;
+}
+
+.name {
+    position: absolute;
+    top: 50%;
+    font-weight: 900;
+    font-size: 250%;
+    color: white;
+    width: 100%;
+}
+
+@media (max-width:768px) {
+    .name {
+        font-size: 190%;
+    }
+}
+
+@media (max-width:576px) {
+    .name {
+        font-size: 105%;
+    }
+}
+
+.row {}

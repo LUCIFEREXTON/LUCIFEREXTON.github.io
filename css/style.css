@@ -34,10 +34,12 @@ img {
     font-family: 'Satisfy', cursive;
     font-size: 5vw;
     font-weight: 900;
-    background: linear-gradient(to bottom right, rgba(0, 0, 255, 1), rgba(238, 130, 238, 1));
+    /* background: url("/resources/Images/leaf.jpg"); */
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 255, 0.6), rgba(238, 130, 238, 0.6)), url("/resources/Images/leaf.jpg");
+    /* background: linear-gradient(to bottom right, rgba(0, 0, 255, 1), rgba(238, 130, 238, 1)); */
     color: snow;
-    border-top-left-radius: 6vw;
-    border-bottom-right-radius: 6vw;
+    border-top-left-radius: 10vw;
+    border-bottom-right-radius: 10vw;
     text-shadow: 2px 2px 10px #000000;
     z-index: 10;
     position: fixed;
